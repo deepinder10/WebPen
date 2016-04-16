@@ -1,0 +1,116 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+#menuBar {
+    color: white;
+    max-width: 100%;
+    overflow: hidden;
+    height: 50px;
+    background-color: #1A1C1D;
+    border-bottom: 2px solid gray;
+}
+
+#logo {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    padding: 10px 0 0 15px;
+    float: left;
+    font-size: 140%;
+}
+
+#nameLogo{
+    font-family: 'Open Sans';
+    font-weight: 200;
+    padding: 10px 0 0 15px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 65%;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover , a:focus{
+    color:#5BC0DE !important;
+}
+
+.buttonRun {
+    float: right;
+    margin: 10px 15px 0 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+ul.list-group {
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    text-align: center;
+}
+
+ul.list-group:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.list-group-item {
+    margin-top: 4px;
+    float: left;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: black;
+}
+
+.codeContainer {
+    color: white;
+    float: left;
+    background: #1D1F20;
+    height: 100%;
+    width: 50%;
+}
+
+#outputContainer {
+    background-color: white;
+}
+
+.codeLabel {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 110%;
+}
+
+#JSContainer,
+#CSSContainer {
+    display: none;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+.footer {
+    padding: 5px;
+    background-color: #1A1C1D;
+    text-align: center; 
+
+}
+
+.footer-text{
+    margin-top: 15px;  
+    font-size: 120%;
+    display:inline-block;
+    color: white;
+    font-family: 'Open Sans';
+}   
